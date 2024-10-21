@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    gap: 4px;
+}
+
+.comment__content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    background-color: green;
+}
+
+.interactionBtn {
+    display: flex;
+    gap: 5px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+
+
+.comment__rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle {
+    width: 3px; /* ширина линии */
+    height: 100%; /* высота линии */
+    background-color: #D9D9D9; /* цвет линии */
+    transform: translateX(-50%);
+}
+
+.reply {
+    display: flex;
+    gap: 21px;
+}
+
+.comment {
+    display: flex;
+    gap: 21px;
+    max-width: 798px;
+}
+
+.comment__container {
+    margin-left: auto;
+}
+
+.comment__item {
+    display: block;
+    max-width: 800px;
+    background-color: red;
+    margin-left: auto;
+}
+
+.comment__item .reply .comment__item {
+    max-width: 700px;
+    background-color: blue;
+}
+
+.comment__item .reply .comment__item .reply .comment__item {
+    max-width: 600px;
+    background-color: blueviolet;
+}
+
+.comment__item .reply .comment__item .reply .comment__item .reply .comment__item {
+    max-width: 500px;
+}
+
+.comment__item .reply .comment__item .reply .comment__item .reply .comment__item .reply .comment__item {
+    max-width: 400px;
+}
+
+.comment__item .reply .comment__item .reply .comment__item .reply .comment__item .reply .comment__item .reply .comment__item {
+    max-width: 300px;
+}
+
+
+/* 
+.comment__item .reply .comment__item .comment {
+    max-width: 500px;
+}
+
+.comment__item .reply .comment__item .reply .comment  {
+    max-width: 100px;
+} */
+

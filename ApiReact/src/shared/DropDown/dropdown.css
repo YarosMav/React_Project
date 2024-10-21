@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  flex: 1 1 0%;
+}
+  
+.listContainer {
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  background-color: white;
+}
+
+.interactionBtn {
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.closeButton {
+  background-color: var(--greyD9);
+  padding: 12px 23px;
+  border-radius: 0 0 3px 3px;
+  width: 100%;
+}
